@@ -6,15 +6,24 @@ Project Structure
 The project is organized into the following files:
 
 bag.c and bag.h: Implements a bag data structure used to store URLs or other data.
+
 crawler.c and crawler.h: Contains the main logic for the web crawler, including URL fetching and parsing.
+
 curl.c and curl.h: Provides wrapper functions around the libcurl library to simplify HTTP requests.
+
 hashtable.c and hashtable.h: Implements a hashtable data structure used to store and quickly lookup URLs.
+
 pagedir.c and pagedir.h: Manages the storage and retrieval of web pages from the disk.
+
 url.c and url.h: Contains functions for URL manipulation, such as normalization and validation.
+
 webpage.c and webpage.h: Defines the structure of a webpage and provides functions to create, delete, and manipulate web pages.
+
 Makefile: Build instructions for the project.
+
 Dependencies
 libcurl: A free and easy-to-use client-side URL transfer library, supporting various protocols including HTTP and HTTPS.
+
 Installation
 To build and run this project, you need to have gcc and libcurl installed on your system.
 
